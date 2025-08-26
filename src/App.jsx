@@ -135,7 +135,7 @@ export default function App() {
       <h1 className="text-white text-[50px] font-black text-center stroke-[2px] stroke-black font-[Montserrat] tracking-wide leading-none">
         WEATHERLY
       </h1>
-      <p className="text-white text-[18px] font-black text-center stroke-[2px] stroke-black font-[Montserrat] tracking-wide leading-none">Enter City Tame To Know The Weather Update</p>
+      <p className="text-white text-[18px] font-black text-center stroke-[2px] stroke-black font-[Montserrat] tracking-wide leading-none">Check Weather by City</p>
 
       {/* Search Input + Button */}
       <div className="flex gap-2 w-full max-w-sm">

@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* App gradient background */
+:root {
+--bg-start: #0ea5e9; /* sky-500 */
+--bg-end: #1e3a8a; /* indigo-900 */
+}
+
+
+html, body, #root { height: 100%; }
+body {
+@apply antialiased text-slate-100;
+background: radial-gradient(1200px 800px at 20% 10%, rgba(255,255,255,0.06), transparent 60%),
+radial-gradient(1000px 600px at 80% 20%, rgba(255,255,255,0.04), transparent 60%),
+linear-gradient(135deg, var(--bg-start), var(--bg-end));
+}
+
+
+/* Nice glass cards */
+.card-glass { @apply bg-white/10 backdrop-blur-lg border border-white/20 shadow-lg; }

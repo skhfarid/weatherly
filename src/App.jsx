@@ -165,7 +165,7 @@ export default function App() {
       {forecast.length > 0 && (
       <div className="mt-8 w-full max-w-[500px]">
         <h2 className="text-xl font-semibold text-white mb-4 text-center">
-          5-Day Forecast
+          Next 5 Days Forecast
         </h2>
         <Forecast forecast={forecast} weatherColors={weatherColors} />
       </div>
